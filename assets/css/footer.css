@@ -1,0 +1,21 @@
+.rodapie {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5rem;
+
+}
+
+
+@media screen and (min-width: 0) {
+  .rodapie {
+    padding-left: 1rem;
+    padding-right: 1rem; 
+  }
+}
+@media screen and (min-width: 768px) {
+  .rodapie {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
